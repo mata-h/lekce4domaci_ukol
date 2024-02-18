@@ -25,3 +25,5 @@ let jmenoLower = jmenoBezZnaku.toLocaleLowerCase()
 let prijmeniBezZnaku = prijmeni.trim()
 
 let prijmeniLower = prijmeniBezZnaku.toLocaleLowerCase()
+
+let domain = "@fit.cvut.cz"
