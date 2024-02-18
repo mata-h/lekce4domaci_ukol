@@ -17,3 +17,7 @@ Pomocí interpolace řetězců sestavte výslednou adresu a vypište ji do strá
 let krestniJmeno = prompt("Zadejte krestni jmeno bez diakritiky:")
 
 let prijmeni = prompt("Zadejte prijmeni bez diakritiky:")
+
+let jmenoBezZnaku = krestniJmeno.trim()
+
+let jmenoLower = jmenoBezZnaku.toLocaleLowerCase()
