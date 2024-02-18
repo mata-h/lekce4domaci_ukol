@@ -21,3 +21,7 @@ let prijmeni = prompt("Zadejte prijmeni bez diakritiky:")
 let jmenoBezZnaku = krestniJmeno.trim()
 
 let jmenoLower = jmenoBezZnaku.toLocaleLowerCase()
+
+let prijmeniBezZnaku = prijmeni.trim()
+
+let prijmeniLower = prijmeniBezZnaku.toLocaleLowerCase()
