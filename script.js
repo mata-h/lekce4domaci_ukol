@@ -13,3 +13,7 @@ ani na konci žádné bílé znaky.
 Pomocí metody slice vyřízněte ze jména i příjmení příslušné části. 
 Pomocí interpolace řetězců sestavte výslednou adresu a vypište ji do stránky.
 */
+
+let krestniJmeno = prompt("Zadejte krestni jmeno bez diakritiky:")
+
+let prijmeni = prompt("Zadejte prijmeni bez diakritiky:")
