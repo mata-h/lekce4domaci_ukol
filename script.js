@@ -28,4 +28,6 @@ let prijmeniLower = prijmeniBezZnaku.toLocaleLowerCase()
 
 let domain = "@fit.cvut.cz"
 
-document.body.innerHTML = `<p> ${prijmeniLower.slice(0, 5)}${jmenoLower.slice(0, 3)}${domain} </p>`
+let emailCvut = document.getElementById("emailCvut")
+
+emailCvut.innerHTML = `<p> ${prijmeniLower.slice(0, 5)}${jmenoLower.slice(0, 3)}${domain} </p>`
